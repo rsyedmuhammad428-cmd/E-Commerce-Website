@@ -1801,9 +1801,13 @@
 
     .fbody {
       margin-top: 14px;
-      display: flex;
+      display: none;
       flex-direction: column;
       gap: 11px;
+    }
+
+    .ftog.op + .fbody {
+      display: flex;
     }
 
     .fo {
