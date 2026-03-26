@@ -1126,3 +1126,4 @@
       const re = new RegExp(`(${query})`, 'gi');
       return text.replace(re, '<mark style="background:var(--gold);color:var(--black);border-radius:2px;padding:0 2px">$1</mark>');
     }
+
